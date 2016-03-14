@@ -1,0 +1,11 @@
+# Ignore all scratch files
+*~
+*.tar.gz
+*.tgz
+# Ignore all subdirectories
+*/
+# but for the ones that make part of this git:
+!isotrack/
+!isotrack_parsec/
+!isotrack_agb/
+
