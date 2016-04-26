@@ -1,0 +1,19 @@
+To run colibri2trilegal:
+
+1. following the instruction on https://github.com/philrosenfield/colibri2trilegal
+
+2. substitute colibri2trilegal.py with my version
+
+3. modify the input_*.txt
+
+4. mkdir fittedTeff
+
+4. run "colibri2trilegal input_*.txt"
+
+5. copy the generated fittedTeff to isotrack_agb
+
+
+6. To removed possible spurious loops presented on the trilegal simulated isochrones, please change the values of "valid_points_cy" (10 in default) and "fits0_thresh_cy" (5.0 in default). And run the code again.
+
+-------------------
+Yang Chen 26/04/2016
