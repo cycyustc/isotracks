@@ -19,12 +19,3 @@ To run colibri2trilegal:
 -------------------
 Yang Chen 26/04/2016
 
-
-#################
-update the fitting procedure. Now, the only minor problems are:
-1) polynomial oscillation in the last pulse of some tracks towarding post-AGB
-2) in the Teff increases steeply, while luminosity is unchanged, the
-fitted Teff is underestimated.
--------------------
-Yang Chen 12/10/2016
-
