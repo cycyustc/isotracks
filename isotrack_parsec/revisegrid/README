@@ -1,0 +1,10 @@
+Put all dbert files inside a directory, e.g. CAF09_S12D_NS_1TP
+
+then, if you have Paols'a 1TP files, put them there too.
+
+Then, simply run revisegrid.pl CAF09_S12D_NS_1TP CAF09_S12D_NS_1TP.dat
+
+and copy the relevant files to the Dropbox with:
+
+rsync -av CAF09_S12D_NS_1TP/*2 ~/Dropbox/TP-AGBcal/isotrack_parsec/CAF09_S12D_NS_1TP
+rsync -av CAF09_S12D_NS_1TP.dat ~/Dropbox/TP-AGBcal/isotrack_parsec/CAF09_S12D_NS_1TP.dat
