@@ -7,6 +7,7 @@
 # but for the ones that make part of this git:
 !isotrack/
 !isotrack_parsec/
+!isotrack_parcol/
 !isotrack_agb/
 !isotrack_agb/fittedTeff/
 !isotrack_agb/fittedTeffGP/
