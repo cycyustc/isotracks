@@ -2,12 +2,18 @@
 *~
 *.tar.gz
 *.tgz
+revisegrid/.depend
+revisegrid/main
+revisegrid/main.o
 # Ignore all subdirectories
 */
 # but for the ones that make part of this git:
 !isotrack/
 !isotrack_parsec/
-!isotrack_parcol/
 !isotrack_agb/
 !isotrack_agb/fittedTeff/
 !isotrack_agb/fittedTeffGP/
+!isotrack_parcol/
+!isotrack_parcol/CAF09_V1.2S_M36_S12D_NS_MAS3/
+!revisegrid/
+!isotrack_parcol/S_EAGB_colibri/
