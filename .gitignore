@@ -5,6 +5,7 @@
 revisegrid/.depend
 revisegrid/main
 revisegrid/main.o
+isotrack_parcol/S_EAGB_colibri/S12_Z0.02_Y0.284_EAGB_1TP
 # Ignore all subdirectories
 */
 # but for the ones that make part of this git:
@@ -15,5 +16,6 @@ revisegrid/main.o
 !isotrack_agb/fittedTeffGP/
 !isotrack_parcol/
 !isotrack_parcol/CAF09_V1.2S_M36_S12D_NS_MAS3/
+!isotrack_parcol/CAF09_V1.2S_M36_S12D_NS_MAS3/dbert_comp/
 !revisegrid/
 !isotrack_parcol/S_EAGB_colibri/
