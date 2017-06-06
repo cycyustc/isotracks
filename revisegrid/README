@@ -8,3 +8,7 @@ and copy the relevant files to the Dropbox with:
 
 rsync -av CAF09_S12D_NS_1TP/*2 ~/Dropbox/TP-AGBcal/isotrack_parsec/CAF09_S12D_NS_1TP
 rsync -av CAF09_S12D_NS_1TP.dat ~/Dropbox/TP-AGBcal/isotrack_parsec/CAF09_S12D_NS_1TP.dat
+
+## CAVEATS
+* If the ./revisegrid/main code crashes with '*** stack smashing detected ***: ../revisegrid/main terminated'. It is because there are too many points/metallicities in the track set.
+You have to change 'TRA_NPUN' in parametri.h file. You may have to split the tracks, run the code several times and combine the CAF09_V1.2S_M36_S12D_NS_MAS3_parcol_comp.dat files.
