@@ -1,0 +1,41 @@
+2 isotrack/parsec/CAF09_V1.2S_M36_S12D_NS_MAS3_comp.dat isotrack/bassazams_fasulla.dat #kind_tracks, file_isotrack, file_lowzams
+4 isotrack/isotrack_agb/tracce_CAF09_S_NOV13.dat 1 # kind_tpagb, file_tpagb, kind_pulsecycle
+0 isotrack/final/pne_wd_test.dat # kind_postagb, file_postagb
+0 tab_ifmr/weidemann.dat # ifmr_kind, file with ifmr
+1 Reimers 0.0 # RGB mass loss: kind_rgbmloss, law, and its efficiency
+
+################################explanation######################
+kind_tracks: 1= normal file 
+file_isotrack: tracks for low+int mass 
+file_lowzams: tracks for low-ZAMS 
+kind_tpagb: 0= none
+	    1= Girardi et al., synthetic on the flight, no dredge up 
+	    2= Marigo & Girardi 2001, from file, includes mcore and C/O
+	    3= Marigo & Girardi 2007, from file, with period, mode and mloss  
+	    4= Marigo et al. 2012, from file, with period, mode and mloss  
+file_tpagb: tracks for TP-AGB
+kind_pulsecycle: 0= quiescent
+		 1= quiescent interpolated in mloss
+		 2= quiescent luminosity with mean mloss
+		 3= detailed pulse cycle reconstructed
+
+kind_postagb: 0= none
+	      1= from file
+file_postagb: PN+WD tracks
+
+kind_mag: 1= normal sets of tables
+	  2= in addition, uses dust tables
+file_mag: list of tables
+
+(note: dust lines present only if kind_mag=2, useful only if kind_tpagb>=3)
+kind_dustM: 0= no dust
+	    1= Groenewegen table
+            2= Bressan table
+file_dustM: list of files with tau-deltaBC relations
+kind_dustC: 0= no dust
+	    1= Groenewegen table
+            2= Bressan table
+file_dustC: list of files with tau-deltaBC relations
+
+kind_imf: 
+file_imf:

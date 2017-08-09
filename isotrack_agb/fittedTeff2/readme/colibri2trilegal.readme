@@ -1,0 +1,35 @@
+#################
+To run colibri2trilegal:
+
+1. following the instruction on https://github.com/philrosenfield/colibri2trilegal
+
+2. substitute colibri2trilegal.py with my version
+
+3. modify the input_*.txt
+
+4. mkdir fittedTeff
+
+4. run "colibri2trilegal input_*.txt"
+
+5. copy the generated fittedTeff to isotrack_agb
+
+
+6. To removed possible spurious loops presented on the trilegal simulated isochrones, please change the values of "valid_points_cy" (10 in default) and "fits0_thresh_cy" (5.0 in default). And run the code again.
+
+-------------------
+Yang Chen 26/04/2016
+
+
+#################
+update the fitting procedure. Now, the only minor problems are:
+1) polynomial oscillation in the last pulse of some tracks towarding post-AGB
+2) in the Teff increases steeply, while luminosity is unchanged, the
+fitted Teff is underestimated.
+-------------------
+Yang Chen 12/10/2016
+
+
+
+##################
+lower the order of polynomial from second order to the first order for stable interpolation in fitting parameters.
+Yang Chen 13/10/2016
