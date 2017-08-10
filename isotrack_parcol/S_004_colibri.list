@@ -1,5 +1,3 @@
-#python ../revisegrid/dbert_colibri_replace.py S_004_colibri.list > error_004.txt
-
 ../isotrack_parsec/CAF09_V1.2S_M36_S12D_NS_MAS3/dbert_comp/ptcri_CAF09_V1.2S_M36_S12D_NS_MAS_Z0.0005_Y0.249.dat  ./S_004/S12_Z0.0005_Y0.249/ ./INP/S12_Z0.0005_Y0.249_EAGB_1TP.INP ./CAF09_V1.2S_M36_S12D_NS_MAS3/dbert_comp004/
 ../isotrack_parsec/CAF09_V1.2S_M36_S12D_NS_MAS3/dbert_comp/ptcri_CAF09_V1.2S_M36_S12D_NS_MAS_Z0.001_Y0.25.dat  ./S_004/S12_Z0.001_Y0.250/ ./INP/S12_Z0.001_Y0.25_EAGB_1TP.INP ./CAF09_V1.2S_M36_S12D_NS_MAS3/dbert_comp004/
 ../isotrack_parsec/CAF09_V1.2S_M36_S12D_NS_MAS3/dbert_comp/ptcri_CAF09_V1.2S_M36_S12D_NS_MAS_Z0.002_Y0.252.dat ./S_004/S12_Z0.002_Y0.252/ ./INP/S12_Z0.002_Y0.252_EAGB_1TP.INP ./CAF09_V1.2S_M36_S12D_NS_MAS3/dbert_comp004/
