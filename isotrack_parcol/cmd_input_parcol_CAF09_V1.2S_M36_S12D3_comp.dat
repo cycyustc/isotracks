@@ -1,4 +1,4 @@
-2 isotrack/parcol/CAF09_V1.2S_M36_S12D_NS_MAS3_comp.dat isotrack/bassazams_fasulla.dat #kind_tracks, file_isotrack, file_lowzams
+2 isotrack/parcol/CAF09_V1.2S_M36_S12D_NS_MAS3_parcol_comp?.dat isotrack/bassazams_fasulla.dat #kind_tracks, file_isotrack, file_lowzams
 4 isotrack/isotrack_agb/tracce_CAF09_S_NOV13.dat 1 # kind_tpagb, file_tpagb, kind_pulsecycle
 0 isotrack/final/pne_wd_test.dat # kind_postagb, file_postagb
 0 tab_ifmr/weidemann.dat # ifmr_kind, file with ifmr
