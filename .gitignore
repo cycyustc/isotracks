@@ -8,6 +8,9 @@ revisegrid/main.o
 isotrack_parcol/CAF09_V1.2S_M36_S12D_NS_MAS3/dbert_comp*/*.HB
 isotrack_parcol/CAF09_V1.2S_M36_S12D_NS_MAS3/dbert_comp*/*.LOW
 isotrack_parcol/CAF09_V1.2S_M36_S12D_NS_MAS3/dbert_comp*/*.INT
+isotrack_parcol/error_*.txt
+isotrack_parcol/log*.txt
+isotrack_parcol/logfile
 #isotrack_parcol/S_EAGB_colibri/S12_Z0.02_Y0.284_EAGB_1TP
 # Ignore all subdirectories
 #*/
