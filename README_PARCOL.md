@@ -9,10 +9,11 @@
 * run ```python ./dbert_colibri_replace.py ./S_EAGB_colibri.list```.
 * run `revisegrid_comp.pl` (As described in README_PARSEC.md)
 * replace `isotrack/parsec` with `isotrack/parcol` in the `CAF09_V1.2S_M36_S12D_NS_MAS3_parcol_comp.dat` file (`isotrack/parsec` is written by the revisedgrid C code).
-* `parcol.sh` shows the example of comand lines of the above three running steps.
+* the above three steps has been integrated into `parcol.py`. So, you simply have to create the list file and put the set name in `parcol.py`, then run with `python parcol.py`
 
 
 ##CAVEATS
 
 * If the logL is applied to replace EAGB in PAESEC (for preventing the jump between PARSEC and COLIBRI EAGB), there will be a mass jump. This is 'cured' by interpolating Teff between PARSEC and COLIBRI E-AGB within an adjustable logL interval (eg., 2.--2.5).
 * Some COLIBRI tracks start before 'He0' (the label in PARSEC).
+* In default COLIBRI tracks with less than two TPs are taken as no TP phase, to be consistent with the colibri2trilegal code. This can be switched off.
