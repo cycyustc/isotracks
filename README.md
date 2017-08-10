@@ -5,6 +5,7 @@
 - isotrack/
 - isotrack_agb/
 - isotrack_parsec/
+- isotrack_parcol/
 
 ## DOWNLOADING
 
@@ -15,6 +16,7 @@ Before proceeding with the next steps DELETE you local copies of:
 - isotrack/
 - isortack_agb/
 - isotrack_parsec/
+- isotrack_parcol/
 
 Your mydirectorytree/trilegal_1.5/.. should now contains:
 
@@ -69,6 +71,8 @@ The following steps are required to have all the folders in the right place:
    isotrack_agb
    
    isotrack_parsec
+
+   isotrack_parcol
    
    
    
@@ -81,6 +85,8 @@ The following steps are required to have all the folders in the right place:
    isotrack_agb -> ..isotrack_agb/
    
    parsec -> ../isotrack_parsec/
+
+   parcol -> ../isotrack_parcol/
 
 
    
@@ -95,6 +101,8 @@ The following steps are required to have all the folders in the right place:
    isotrack_agb
    
    isotrack_parsec
+
+   isotrack_parcol
    
    photom/tab_dust 
    
