@@ -45,7 +45,7 @@ The following steps are required to have all the folders in the right place:
 3. Set the remote "origin":
 
    ```
-   git remote add origin http://starkey.astro.unipd.it:8889/giada.pastorelli/isotracks.git
+   git remote add origin git@gitlab.com:cycyustc/isotracks.git
    ```
    
 4. Incorporate changes from the remote repository "isotracks" into the master branch:
