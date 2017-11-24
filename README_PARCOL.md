@@ -17,7 +17,8 @@
 - replace `parsec` with `parcol` in the `CAF09_V1.2S_M36_S12D_NS_MAS3_parcol_comp.dat` file (`isotrack/parsec` is written by the revisedgrid C code).
 
 **LFS support and uncompress tgz files**
-The INP files, COLIBRI tracks and the resulting dbert files are now stored with git LFS scheme, and they are in tgz format to largely save space.
+The INP files, COLIBRI tracks and the resulting dbert files are now stored with git LFS scheme (https://git-lfs.github.com/), and they are in tgz format to largely save space.
+The git repo history is also cleaned regarding these large files (http://stevelorek.com/how-to-shrink-a-git-repository.html).
 After cloning the repository, execute the following steps to uncompress the tgz files:
 
 >
