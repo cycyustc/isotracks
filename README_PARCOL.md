@@ -16,6 +16,16 @@
 - `revisegrid_comp.pl` (As described in README_PARSEC.md)
 - replace `parsec` with `parcol` in the `CAF09_V1.2S_M36_S12D_NS_MAS3_parcol_comp.dat` file (`isotrack/parsec` is written by the revisedgrid C code).
 
+**LFS support and uncompress tgz files**
+The INP files, COLIBRI tracks and the resulting dbert files are now stored with git LFS scheme, and they are in tgz format to largely save space.
+After cloning the repository, execute the following steps to uncompress the tgz files:
+
+>
+- ```cd isotrack_parcol```
+- ```cat *.tgz | tar zxvf - -i```
+- ```cd CAF09_V1.2S_M36_S12D_NS_MAS3```
+- ```cat *.tgz | tar zxvf - -i```
+
 
 **CAVEATS**
 * If the logL is applied to replace EAGB in PAESEC (for preventing the jump between PARSEC and COLIBRI EAGB), there will be a mass jump. This is 'cured' by interpolating Teff between PARSEC and COLIBRI E-AGB within an adjustable logL interval (eg., 2.--2.5).
