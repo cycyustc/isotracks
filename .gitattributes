@@ -1,3 +1,2 @@
 isotrack_parcol/S_*.tgz filter=lfs diff=lfs merge=lfs -text
-isotrack_parcol/CAF09_V1.2S_M36_S12D_NS_MAS3/*.tgz filter=lfs diff=lfs merge=lfs -text
 isotrack_parcol/INP.tgz filter=lfs diff=lfs merge=lfs -text
