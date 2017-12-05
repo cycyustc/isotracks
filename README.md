@@ -11,6 +11,17 @@
 
 ### IMPORTANT: 
 
+Now this repository is git-lfs supported. You need to install git-lfs first before normal git clone.
+On Ubuntu, the installation is the following:
+
+- curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+- sudo apt-get install git-lfs
+- git lfs install
+
+For more information, please check https://git-lfs.github.com/
+
+
+
 Before proceeding with the next steps DELETE you local copies of: 
 
 - isotrack/
