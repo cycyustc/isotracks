@@ -1,7 +1,7 @@
 # Ignore all scratch files
 *~
-*.tar.gz
-*.tgz
+#*.tar.gz
+#*.tgz
 revisegrid/.depend
 revisegrid/main
 revisegrid/main.o
