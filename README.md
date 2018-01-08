@@ -146,7 +146,7 @@ The following steps are required to have all the folders in the right place:
    bc_odfnewbern -> ../photom/bc_odfnewbern/
    
    
-   ## Updating
+## Updating
    
 - git add Something
 - git commit -m "Add Something"
