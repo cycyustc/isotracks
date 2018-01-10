@@ -47,26 +47,32 @@ The following steps are required to have all the folders in the right place:
    ```
    cd mydirectorytree/trilegal_1.5/..
    ```
+ 
+2. Create the 'isotracks' folder and enter it:
+   ```
+   mkdir isotracks
+   cd isotracks
+   ```
    
-2. Create an empty Git repository:
+3. Create an empty Git repository:
 
    ```
    git init
    ```
    
-3. Set the remote "origin":
+4. Set the remote "origin":
 
    ```
    git remote add origin git@gitlab.com:cycyustc/isotracks.git
    ```
    
-4. Incorporate changes from the remote repository "isotracks" into the master branch:
+5. Incorporate changes from the remote repository "isotracks" into the master branch:
 
    ```
    git pull origin master
    ```
 
-5. To find new commits (i.e. updates in the tracks):
+6. To find new commits (i.e. updates in the tracks):
 
    ```
    git pull origin master
