@@ -1,5 +1,6 @@
 ## Repository for stellar evolutionary tracks used in TRILEGAL
 
+
 ### Contents
 
 - isotrack/
@@ -7,12 +8,11 @@
 - isotrack_parsec/
 - isotrack_parcol/
 
-## DOWNLOADING
 
-### IMPORTANT: 
+### IMPORTANT (git-LFS related): 
 
-Now this repository is git-lfs supported. You need to install git-lfs first before normal git clone.
-On Ubuntu, the installation is the following:
+Now this repository is git-lfs supported. I Suppose you are familiar with git but not git-lfs. On the OS level, you need to install git-lfs first before normal git clone.
+This is done once for all on a computer. On Ubuntu, the installation is the following:
 
 - curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 - sudo apt-get install git-lfs
@@ -21,6 +21,7 @@ On Ubuntu, the installation is the following:
 For more information, please check https://git-lfs.github.com/
 
 
+## DOWNLOADING
 
 Before proceeding with the next steps DELETE you local copies of: 
 
@@ -46,26 +47,32 @@ The following steps are required to have all the folders in the right place:
    ```
    cd mydirectorytree/trilegal_1.5/..
    ```
+ 
+2. Create the 'isotracks' folder and enter it:
+   ```
+   mkdir isotracks
+   cd isotracks
+   ```
    
-2. Create an empty Git repository:
+3. Create an empty Git repository:
 
    ```
    git init
    ```
    
-3. Set the remote "origin":
+4. Set the remote "origin":
 
    ```
    git remote add origin git@gitlab.com:cycyustc/isotracks.git
    ```
    
-4. Incorporate changes from the remote repository "isotracks" into the master branch:
+5. Incorporate changes from the remote repository "isotracks" into the master branch:
 
    ```
    git pull origin master
    ```
 
-5. To find new commits (i.e. updates in the tracks):
+6. To find new commits (i.e. updates in the tracks):
 
    ```
    git pull origin master
@@ -143,4 +150,28 @@ The following steps are required to have all the folders in the right place:
    tab_mag_odfnewbern -> ../photom/tab_mag_odfnewbern/
    
    bc_odfnewbern -> ../photom/bc_odfnewbern/
+   
+   
+## Updating
+   
+- git add Something
+- git commit -m "Add Something"
+- git push origin master
+
+### git-LFS update something
+
+If you want something (eg., large files) to be LFS-supported. you should do something like this:
+
+- git lfs track "*.tgz"
+- or git lfs track something.tgz, if you do not want all the tgz files to be LFS supported
+- git add .gitattributes
+
+Then just commit and push to GitHub as you normally would.
+
+- git add file1.tgz
+- git commit -m "Add file1.tgz"
+- git push origin master
+
+   
+   
    
